@@ -26,8 +26,8 @@ $ php artisan migrate --seed
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/Rw6wiwO.png)
+![](https://i.imgur.com/bLSQ30y.png)
 > 新的確診病例及死亡人數不斷攀升
 
-![](https://i.imgur.com/VvV4LQt.png)
+![](https://i.imgur.com/1IZg1vq.png)
 > 武漢肺炎蔓延全球，隨著疫情流行中心從中國轉至美國與歐洲，中國以外感染此病死亡人數首度超過中國的死亡人數，歐美越來越多國家採取限制旅遊和禁止集會等措施遏止病毒傳播
