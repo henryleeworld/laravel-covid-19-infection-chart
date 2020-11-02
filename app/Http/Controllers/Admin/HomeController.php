@@ -12,7 +12,7 @@ class HomeController
             'chart_title'           => '依國家和日期分類病例（Cases）', // 依國家和日期分類病例
             'chart_type'            => 'line',
             'report_type'           => 'group_by_date',
-            'model'                 => 'App\\Infection',
+            'model'                 => 'App\\Models\\Infection',
             'conditions'            => [
                 ['name' => '台灣', 'condition' => 'country_id = 211', 'color' => 'green'],
                 ['name' => '美國', 'condition' => 'country_id = 229', 'color' => 'blue'],

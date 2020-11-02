@@ -2,7 +2,7 @@
 
 namespace App\Http\Requests;
 
-use App\Infection;
+use App\Models\Infection;
 use Gate;
 use Illuminate\Foundation\Http\FormRequest;
 use Symfony\Component\HttpFoundation\Response;

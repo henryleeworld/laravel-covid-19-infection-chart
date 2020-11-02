@@ -6,7 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Http\Requests\StoreInfectionRequest;
 use App\Http\Requests\UpdateInfectionRequest;
 use App\Http\Resources\Admin\InfectionResource;
-use App\Infection;
+use App\Models\Infection;
 use Gate;
 use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;

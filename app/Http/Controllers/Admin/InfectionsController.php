@@ -2,12 +2,12 @@
 
 namespace App\Http\Controllers\Admin;
 
-use App\Country;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\MassDestroyInfectionRequest;
 use App\Http\Requests\StoreInfectionRequest;
 use App\Http\Requests\UpdateInfectionRequest;
-use App\Infection;
+use App\Models\Country;
+use App\Models\Infection;
 use Gate;
 use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;
