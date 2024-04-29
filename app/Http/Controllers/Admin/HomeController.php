@@ -14,9 +14,9 @@ class HomeController
             'report_type'           => 'group_by_date',
             'model'                 => 'App\\Models\\Infection',
             'conditions'            => [
-                ['name' => '台灣', 'condition' => 'country_id = 211', 'color' => 'green'],
-                ['name' => '美國', 'condition' => 'country_id = 229', 'color' => 'blue'],
-                ['name' => '中國', 'condition' => 'country_id = 44', 'color' => 'red'],
+                ['name' => '台灣', 'condition' => 'country_id = 211', 'color' => 'green', 'fill' => true],
+                ['name' => '美國', 'condition' => 'country_id = 229', 'color' => 'blue', 'fill' => true],
+                ['name' => '中國', 'condition' => 'country_id = 44', 'color' => 'red', 'fill' => true],
             ],
             'group_by_field'        => 'report_date',
             'group_by_period'       => 'day',
